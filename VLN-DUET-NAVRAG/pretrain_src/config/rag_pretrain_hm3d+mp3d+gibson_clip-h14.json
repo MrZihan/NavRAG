@@ -1,0 +1,50 @@
+{
+    "model_config": "",
+    "checkpoint": null,
+    "output_dir": "",
+    "mrc_mask_prob": 0.15,
+    "max_txt_len": 200,
+    "train_batch_size": 64,
+    "val_batch_size": 64,
+    "gradient_accumulation_steps": 1,
+    "learning_rate": 5e-05,
+    "valid_steps": 10000,
+    "log_steps": 1000,
+    "num_train_steps":200000,
+    "optim": "adamw",
+    "betas": [
+        0.9,
+        0.98
+    ],
+    "dropout": 0.1,
+    "weight_decay": 0.01,
+    "grad_norm": 5.0,
+    "warmup_steps": 10000,
+    "seed": 0,
+    "fp16": false,
+    "n_workers": 1,
+    "pin_mem": false,
+    "init_pretrained": "lxmert",
+
+    "train_datasets": {
+      "R2R": {
+        "name": "R2R",
+        "train_traj_files": [
+          "../datasets/NavRAG/annotations/pretrain_map/NAVRAG_train_enc.jsonl"
+        ],
+        "val_seen_traj_files": [ "../datasets/NavRAG/annotations/pretrain_map/NAVRAG_val_seen_enc.jsonl" ],
+        "val_unseen_traj_files": [ "../datasets/NavRAG/annotations/pretrain_map/NAVRAG_val_unseen_enc.jsonl" ],
+        "connectivity_dir": [ "../datasets/NavRAG/connectivity_mp3d", "../datasets/NavRAG/connectivity" ],
+        "img_ft_file": "../datasets/NavRAG/features/clip_vit-h14_mp3d_hm3d_gibson.hdf5",
+        "scanvp_cands_file": "../datasets/NavRAG/annotations/scanvp_candview_relangles_with_hm3d_gibson.json",
+        "tasks": [
+          "mlm",
+          "sap"
+        ],
+        "mix_ratio": [
+          1,
+          1
+        ]
+      }
+    }
+}
