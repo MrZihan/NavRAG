@@ -1,0 +1,142 @@
+[
+{
+"Age":25,  
+"Gender":"Male",  
+"Marital Status":"Single",  
+"Occupation":"Ph.D. student in Computer Science",  
+"Lifestyle Description":"You prefer staying up late and waking up late. You spend most of your time at home working on a laptop writing code, and you wish to delegate all household chores to the assistant robot."
+},
+{
+"Age":33,  
+"Gender":"Female",  
+"Marital Status":"Married",  
+"Occupation":"Lawyer",  
+"Lifestyle Description":"You maintain the good habit of going to bed early and waking up early. Besides working in the study, you often do yoga and other exercises in the living room and enjoy cooking your own meals."
+},
+{
+"Age":65,  
+"Gender":"Male",  
+"Marital Status":"Married",  
+"Occupation":"Retired",  
+"Lifestyle Description":"You have limited mobility and often rely on the robot to fetch daily essentials. Your favorite pastime is enjoying a good book in the living room or study."
+},
+{
+"Age":9,  
+"Gender":"Male",  
+"Marital Status":"Single",  
+"Occupation":"Student",  
+"Lifestyle Description":"You are a young boy in elementary school. You enjoy playing pranks on robots for fun, but you also rely on them to handle some of your daily tasks (even though your parents hope you can do them independently!)."
+},
+{
+"Age":20,  
+"Gender":"Female",  
+"Marital Status":"Single",  
+"Occupation":"Undergraduate student",  
+"Lifestyle Description":"You’re a university student with a busy schedule, often leaving early and returning late. You rely completely on your household robot to handle all your chores. By sending instructions through your phone, you ensure your home is always kept in impeccable order."
+},
+{
+"Age":35,  
+"Gender":"Male",  
+"Marital Status":"Married",  
+"Occupation":"Plumber",  
+"Lifestyle Description":"Due to the demands of your work, you often need to take showers and do laundry. Maybe you could consider having the robot assist with these tasks to lighten the load."
+},
+{
+"Age":32,  
+"Gender":"Female",  
+"Marital Status":"Married",  
+"Occupation":"Teacher",  
+"Lifestyle Description":"You take great care in keeping both your work and personal life well-organized, especially with two children. There are times when you rely on the robot to help look after these two playful little ones."
+},
+{
+"Age":25,  
+"Gender":"Male",  
+"Marital Status":"Single",  
+"Occupation":"Writer",  
+"Lifestyle Description":"You are a heavy gamer, and you might want the robot to encourage you to control your gaming time and allocate more energy to life and work."
+},
+{
+"Age":29,  
+"Gender":"Male",  
+"Marital Status":"Married",  
+"Occupation":"Writer", 
+"Lifestyle Description":"You are a writer specializing in detective novels, spending most of your day working on a laptop in the bedroom, study, or living room. You hope the robot will handle household chores as quietly as possible."
+},
+{
+"Age":43,  
+"Gender":"Male",  
+"Marital Status":"Single",  
+"Occupation":"Truck driver",  
+"Lifestyle Description":"Due to work commitments, you are frequently away from home. You may need the robot to assist with household chores and even greet visitors."
+},
+{
+"Age":37,  
+"Gender":"Male",  
+"Marital Status":"Married",  
+"Occupation":"Police",  
+"Lifestyle Description":"You are a police officer who often works outside during the day. You hope that when you return home in the evening, the robot will have everything well-arranged, allowing you to seamlessly enjoy the comfort and warmth of home."
+},
+{
+"Age":63,  
+"Gender":"Female",  
+"Marital Status":"Single",  
+"Occupation":"Retired",  
+"Lifestyle Description":"You live alone at home and hope that the robot can be a companion in your life, not only helping you with household chores but also alleviating your loneliness."
+},
+{
+"Age":25,  
+"Gender":"Female",  
+"Marital Status":"Single",  
+"Occupation":"Bank teller",  
+"Lifestyle Description":"You treat the robot more like a pet and don't seem to rely on it for household chores. You enjoy teasing the robot by assigning it some trivial tasks as a little amusement."
+},
+{
+"Age":31,  
+"Gender":"Male",  
+"Marital Status":"Married",  
+"Occupation":"Business owner",  
+"Lifestyle Description":"Just as you approach your work and career with seriousness and dedication, you expect your robot to be a strict and diligent household assistant in completing tasks."
+},
+{
+"Age":34,  
+"Gender":"Female",  
+"Marital Status":"Married",  
+"Occupation":"Chef",  
+"Lifestyle Description":"You are a chef, and even at home, you often think about various new cooking methods. Perhaps you would like your household robot to provide you with some assistance."
+},
+{
+"Age":22,  
+"Gender":"Female",  
+"Marital Status":"Single",  
+"Occupation":"Hotel waiter",  
+"Lifestyle Description":"Due to work requirements, you need to work late and start work at noon. While at home, you hope the robot can take care of everything for you."
+},
+{
+"Age": 28,  
+"Gender": "Female",  
+"Marital Status": "Single",  
+"Occupation": "Graphic Designer",  
+"Lifestyle Description": "You are a creative individual who enjoys working from home. You spend long hours on your computer designing, and your work environment needs to be tidy and inspiring. You rely on the robot to handle cleaning and organizing your space while you focus on your projects."
+},
+{
+"Age": 45,  
+"Gender": "Male",  
+"Marital Status": "Married",  
+"Occupation": "Architect",  
+"Lifestyle Description": "You have a demanding job with frequent deadlines. At home, you like a calm and organized environment to help you relax. You expect the robot to help with chores, leaving you free to concentrate on your designs and family time."
+},
+{
+"Age": 50,  
+"Gender": "Female",  
+"Marital Status": "Divorced",  
+"Occupation": "Therapist",  
+"Lifestyle Description": "You spend your days listening to clients and providing emotional support, so when you return home, you need a peaceful space. You appreciate the robot’s help with chores, but also view it as a companion that can listen to your day."
+},
+{
+"Age": 21,  
+"Gender": "Female",  
+"Marital Status": "Single",  
+"Occupation": "Freelancer",  
+"Lifestyle Description": "You work from home on various freelance projects, often on tight deadlines. You have a flexible schedule but prefer a clean and quiet environment to focus. The robot handles all the housekeeping so you can maintain your productivity."
+}
+]
