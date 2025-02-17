@@ -12,3 +12,13 @@
 * [X] Release the DUET code for the NavRAG dataset and the REVERIE dataset.
 * [ ] Release NavRAG dataset and preprocessed feature files.
 * [ ] Release the checkpoints.
+
+## Requirements
+
+1. Install Matterport3D simulator for pre-training your model: follow instructions [here](https://github.com/peteanderson80/Matterport3DSimulator).
+```
+export PYTHONPATH=Matterport3DSimulator/build:$PYTHONPATH
+```
+2. (Optional) Install Habitat simulator for obtaining the RGB-D images from MP3D and HM3D scenes: follow instructions [here](https://github.com/jacobkrantz/VLN-CE).
+
+3. 

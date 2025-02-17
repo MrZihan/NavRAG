@@ -60,12 +60,13 @@ flag="--root_dir ${DATA_ROOT}
       
       --gamma 0."
 
+# # train
+#CUDA_VISIBLE_DEVICES=$1 python3 -m torch.distributed.launch --master_port $2 --nproc_per_node=${ngpus} reverie/main_nav.py $flag  \
+#      --tokenizer bert \
+ #     --bert_ckpt_file ../../VLN-DUET-NAVRAG/datasets/NavRAG/exprs_map/pretrain/cmt-clip.vit.h14-mlm.sap-init.lxmert/ckpts/model_step_200000.pt
 
 # # test
-#CUDA_VISIBLE_DEVICES=$1 python3 -m torch.distributed.launch --master_port $2 --nproc_per_node=${ngpus} reverie/main_nav.py $flag  \
-#       --tokenizer bert \
-	   #--resume_file ../../VLN-DUET-NAVRAG/datasets/NavRAG/exprs_map/finetune/dagger-clip.h14-envedit-seed.0-aug.mp3d.prevalent.hm3d_gibson.envdrop.init.190k-aug.hm3d.envdrop/ckpts/best_val_unseen \
-
 CUDA_VISIBLE_DEVICES=$1 python3 -m torch.distributed.launch --master_port $2 --nproc_per_node=${ngpus} reverie/main_nav.py $flag  \
-      --tokenizer bert \
-      --bert_ckpt_file ../../VLN-DUET-NAVRAG/datasets/NavRAG/exprs_map/pretrain/cmt-clip.vit.h14-mlm.sap-init.lxmert/ckpts/model_step_200000.pt # \
+       --tokenizer bert \
+       --resume_file ../datasets/REVERIE/trained_models/finetune/best_val_unseen \
+       --test #--submit

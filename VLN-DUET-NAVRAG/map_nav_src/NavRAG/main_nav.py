@@ -73,7 +73,7 @@ def build_dataset(args, rank=0, is_test=False):
         val_env_names.append('test')
 
     if args.dataset == 'NavRAG':
-        val_env_names = ['val_unseen','test']
+        val_env_names = ['val_unseen']
 
     val_envs = {}
     for split in val_env_names:

@@ -62,12 +62,12 @@ flag="--root_dir ${DATA_ROOT}
 
 
 # train
-CUDA_VISIBLE_DEVICES=$1 python3 -m torch.distributed.launch --master_port $2 --nproc_per_node=${ngpus} NavRAG/main_nav.py $flag  \
-      --tokenizer bert \
-      --bert_ckpt_file ../datasets/NavRAG/exprs_map/pretrain/cmt-clip.vit.h14-mlm.sap-init.lxmert/ckpts/model_step_200000.pt
+#CUDA_VISIBLE_DEVICES=$1 python3 -m torch.distributed.launch --master_port $2 --nproc_per_node=${ngpus} NavRAG/main_nav.py $flag  \
+#      --tokenizer bert \
+ #     --bert_ckpt_file ../datasets/NavRAG/exprs_map/pretrain/cmt-clip.vit.h14-mlm.sap-init.lxmert/ckpts/model_step_200000.pt
 
 # # test
-# CUDA_VISIBLE_DEVICES='0' python NavRAG/main_nav.py $flag  \
-#       --tokenizer bert \
-#       --resume_file ../datasets/NavRAG/trained_models/finetune/duet_vit-h14_ft_best_val_unseen \
-#       --test #--submit
+CUDA_VISIBLE_DEVICES=$1 python3 -m torch.distributed.launch --master_port $2 --nproc_per_node=${ngpus} NavRAG/main_nav.py $flag  \
+       --tokenizer bert \
+       --resume_file ../datasets/NavRAG/trained_models/finetune/best_val_unseen \
+       --test #--submit
