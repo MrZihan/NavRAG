@@ -12,7 +12,6 @@
 * [X] Release NavRAG dataset and preprocessed feature files.
 * [X] Release the checkpoints.
 * [X] Release annotations of scene description tree for MP3D.
-* [ ] Release annotations of scene description tree for HM3D.
 
 ## Requirements
 
