@@ -1,4 +1,4 @@
-### NavRAG: Generating User Demand Instructions for Embodied Navigation through Retrieval-Augmented LLM
+### NavRAG: Generating User Demand Instructions for Embodied Navigation through Retrieval-Augmented LLM [arXiv](https://arxiv.org/abs/2502.11142)
 
 #### Zihan Wang, Yaohui Zhu, Gim Hee Lee, Yachun Fan,
 
