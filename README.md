@@ -62,5 +62,16 @@ python3 generate_instruction.py
 python3 convert_to_dataset.py
 ```
 
+### Citation
+
+```
+@article{wang2025navrag,
+  title={NavRAG: Generating User Demand Instructions for Embodied Navigation through Retrieval-Augmented LLM},
+  author={Wang, Zihan and Zhu, Yaohui and Lee, Gim Hee and Fan, Yachun},
+  journal={arXiv preprint arXiv:2502.11142},
+  year={2025}
+}
+```
+
 ### Acknowledgments
 Our code is based on [DUET](https://github.com/cshizhe/VLN-DUET), some code and data are from [ScaleVLN](https://github.com/wz0919/ScaleVLN) and [BEVBert](https://github.com/MarSaKi/VLN-BEVBert). Thanks for their great works!
