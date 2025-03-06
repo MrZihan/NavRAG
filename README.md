@@ -52,6 +52,7 @@ bash scripts/reverie_h14_envedit_mix.sh "0,1" 2346
 ```
 
 ### (Optional) Generate the NavRAG dataset
+Notice: Running the following code will result in OpenAI account charges.
 ```
 cd instruction_generator
 python3 get_mp3d_image.py # For HM3D scenes, get_hm3d_image.py
