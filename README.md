@@ -21,7 +21,7 @@
 ```
 export PYTHONPATH=Matterport3DSimulator/build:$PYTHONPATH
 ```
-2. Download the NavRAG dataset, preprocessed feature files, and checkpoints from [TeraBox](https://1024terabox.com/s/1D5HEHsaW5AcWTjjIO15jpA).
+2. Download the NavRAG dataset, preprocessed feature files, and checkpoints from [TeraBox](https://1024terabox.com/s/1D5HEHsaW5AcWTjjIO15jpA) or [Baidu Netdisk](https://pan.baidu.com/s/15UoGbtPU3A9XPrq3R9fDsg?pwd=2fny).
 3. (Optional) Install the Habitat simulator and download `Matterport3D scenes (MP3D)` to obtain the RGB-D images: follow instructions [here](https://github.com/jacobkrantz/VLN-CE).
 4. (Optional) Download the `Habitat-Matterport 3D scenes (HM3D)` from [habitat-matterport-3dresearch](https://github.com/matterport/habitat-matterport-3dresearch).
    ```
